@@ -55,6 +55,7 @@ export default function Projects() {
               </p>
               <a href={project.link} className="text-white mt-3 block" target="_blank" rel="noopener noreferrer">
                 <TbExternalLink size={23} />
+                <p>View Project</p>
               </a>
             </div>
           </motion.div>
