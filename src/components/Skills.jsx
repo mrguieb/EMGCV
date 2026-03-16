@@ -27,7 +27,7 @@ export default function Skills() {
     },
     {
       id: 2,
-      company: "MotorAce",
+      company: "MotorAce Candon Branch",
       role: "Part Time Graphic Artist",
       period: "October 2024 - Present",
       description:
