@@ -34,7 +34,7 @@ export default function Home() {
             <motion.h2 variants={{ hidden: { opacity: 0, y: 10 }, visible: { opacity: 1, y: 0 } }}>
               Hello, <TypeAnimation
                 sequence={[
-                  'I am Emgie GuieB',
+                  'I am Emgie Guieb',
                   1000,
                   // 'I am a Web Developer',
                   // 1000,
