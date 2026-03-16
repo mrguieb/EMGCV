@@ -7,7 +7,6 @@ export default function Footer() {
 
       <div className='text-white lg:font-semibold lg:text-sm font-normal text-[10px] text-right lg:space-y-3'>
         <p>@ 2026 EMG Personal Portfolio</p>
-        <p>Laziness kills ambition / Jealousy kills peace / Fear kills dreams</p>
       </div>
     </div>
   )
