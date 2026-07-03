@@ -4,7 +4,7 @@ import { BiLogoGmail } from 'react-icons/bi';
 import { BsGithub } from 'react-icons/bs';
 import { IoLogoLinkedin, IoLogoTwitter } from 'react-icons/io5';
 import { IoMdMail } from "react-icons/io";
-import { FaPhone } from "react-icons/fa6";
+import { FaLinkedin, FaPhone } from "react-icons/fa6";
 import { FaFacebook } from "react-icons/fa";
 import { FaBehance } from "react-icons/fa";
 import { FaSquareInstagram } from "react-icons/fa6";
@@ -88,6 +88,18 @@ export default function Contact() {
                              <motion.a
                                key={index}
                                href="https://www.behance.net/emgieguieb1"
+                               className="bg-white p-2 lg:p-3 rounded border-2 border-black"
+                               target="_blank"
+                               whileHover={{ scale: 1.1, backgroundColor: "#000", color: "#fff" }}
+                               whileTap={{ scale: 0.9 }}
+                             >
+                               <Icon className="w-4 h-4 lg:w-5 lg:h-5" />
+                             </motion.a>
+                           ))}
+                           {[FaLinkedin].map((Icon, index) => (
+                             <motion.a
+                               key={index}
+                               href="https://www.linkedin.com/in/mrguieb/"
                                className="bg-white p-2 lg:p-3 rounded border-2 border-black"
                                target="_blank"
                                whileHover={{ scale: 1.1, backgroundColor: "#000", color: "#fff" }}

@@ -4,6 +4,7 @@ import { IoLogoLinkedin, IoLogoTwitter } from "react-icons/io5";
 import { FaSquareInstagram } from "react-icons/fa6";
 import { TypeAnimation } from "react-type-animation";
 import { FaFacebook } from "react-icons/fa";
+import { FaLinkedin, FaPhone } from "react-icons/fa6";
 import { FaBehance } from "react-icons/fa";
 
 export default function Home() {
@@ -111,6 +112,18 @@ export default function Home() {
                 <Icon className="w-4 h-4 lg:w-5 lg:h-5" />
               </motion.a>
             ))}
+            {[FaLinkedin].map((Icon, index) => (
+                                         <motion.a
+                                           key={index}
+                                           href="https://www.linkedin.com/in/mrguieb/"
+                                           className="bg-white p-2 lg:p-3 rounded border-2 border-black"
+                                           target="_blank"
+                                           whileHover={{ scale: 1.1, backgroundColor: "#000", color: "#fff" }}
+                                           whileTap={{ scale: 0.9 }}
+                                         >
+                                           <Icon className="w-4 h-4 lg:w-5 lg:h-5" />
+                                         </motion.a>
+                                       ))}
           </motion.div>
         </motion.div>
 

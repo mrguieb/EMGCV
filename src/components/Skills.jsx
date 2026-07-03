@@ -66,8 +66,10 @@ export default function Skills() {
             </motion.div>
           ))}
         </div>
+        
 
       </div>
+      
 
       {/* Experience Section */}
       <div className="bg-black w-full my-8 py-8 lg:my-16 lg:py-16">
